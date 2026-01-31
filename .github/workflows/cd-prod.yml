@@ -1,0 +1,13 @@
+name: CD Production
+
+on:
+  push:
+    branches:
+      - production
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+    - run: curl ${{ secrets.RENDER_PROD_HOOK }}
