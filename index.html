@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestige University | Excellence in Education</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h1>Prestige<span>University</span></h1>
+                </div>
+                
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="pages/courses.html">Courses</a></li>
+                        <li><a href="pages/faculty.html">Faculty</a></li>
+                        <li><a href="pages/admissions.html">Admissions</a></li>
+                        <li><a href="pages/contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Shape Your Future With Excellence</h1>
+            <p>Join a community of innovators, thinkers, and leaders at one of the world's top-ranked universities.</p>
+            <div class="hero-buttons">
+                <a href="pages/admissions.html" class="btn btn-primary">Start Your Journey</a>
+                <a href="pages/courses.html" class="btn btn-secondary">Explore Programs</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="content-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose Prestige University?</h2>
+                <p>We provide world-class education with a focus on innovation and student success</p>
+            </div>
+            
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Academic Excellence</h3>
+                    <p>Ranked among top 100 universities globally with accredited programs and experienced faculty.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Career Success</h3>
+                    <p>95% graduate employment rate with strong industry partnerships and career support services.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <h3>Global Community</h3>
+                    <p>Diverse student body from 50+ countries creating an inclusive international learning environment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Preview -->
+    <section class="content-section" style="background: #f8f9fa;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Programs</h2>
+                <p>Discover our most sought-after academic programs</p>
+            </div>
+            
+            <div class="cards-grid">
+                <div class="card">
+                    <h3>Computer Science</h3>
+                    <p>Cutting-edge curriculum in AI, Machine Learning, and Software Engineering with industry projects.</p>
+                    <a href="pages/courses.html" class="btn btn-small btn-outline">Learn More</a>
+                </div>
+                
+                <div class="card">
+                    <h3>Business Administration</h3>
+                    <p>Develop leadership skills with practical business training and international exchange opportunities.</p>
+                    <a href="pages/courses.html" class="btn btn-small btn-outline">Learn More</a>
+                </div>
+                
+                <div class="card">
+                    <h3>Medical Sciences</h3>
+                    <p>World-class medical education with state-of-the-art research facilities and clinical training.</p>
+                    <a href="pages/courses.html" class="btn btn-small btn-outline">Learn More</a>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="pages/courses.html" class="btn btn-primary">View All Programs</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Prestige University</h3>
+                    <p>Committed to excellence in education, research, and innovation since 1890.</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 University Ave, City, State 12345</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="pages/courses.html">Academic Programs</a></li>
+                        <li><a href="pages/faculty.html">Faculty Directory</a></li>
+                        <li><a href="pages/admissions.html">Admissions</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@prestige.edu</p>
+                    <p><i class="fas fa-clock"></i> Mon-Fri: 8:00 AM - 6:00 PM</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Prestige University. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.main-nav ul').classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
